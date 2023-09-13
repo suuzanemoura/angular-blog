@@ -1,0 +1,14 @@
+.menu-title{
+    font-size: 4rem;
+    align-self: center;
+    color: #91679B;
+
+    @media (min-width: 768px){
+        font-size: 8rem;
+    }
+
+    @media (min-width: 1440px){
+        font-size: 12rem;
+        font-weight: bolder;
+    }
+}

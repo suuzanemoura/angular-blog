@@ -1,0 +1,12 @@
+.offcanvas-header > h5{
+    color: #9C68A7;
+}
+
+.offcanvas-body > .navbar-nav{
+    border-left: 1px solid #9C68A7;
+    padding-left: 1rem;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
