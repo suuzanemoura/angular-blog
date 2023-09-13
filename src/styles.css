@@ -1,6 +1,13 @@
 *{
-    background-color: #111;
+    background-color: #1A0024;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
 }
