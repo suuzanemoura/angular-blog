@@ -1,0 +1,9 @@
+.design{
+    background-color: #2a013a;
+}
+
+.rowcard-photo > img {
+    @media (min-width: 992px){
+        width: 80% !important;
+    }
+}

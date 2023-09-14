@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./row-card.component.css']
 })
 export class RowCardComponent {
-
+  buttonName:string = 'More details'
 }
