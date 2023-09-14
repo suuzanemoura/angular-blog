@@ -6,7 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title:string = 'THE BLOG';
-  borderBottom:string = 'small-card__border-bottom';
-  borderNone:string = 'small-card__border-none';
 }
