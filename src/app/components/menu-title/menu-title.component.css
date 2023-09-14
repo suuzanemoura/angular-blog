@@ -3,12 +3,20 @@
     align-self: center;
     color: #91679B;
 
+    @media (min-width: 560px){
+        font-size: 6rem;
+    }
+
     @media (min-width: 768px){
         font-size: 8rem;
     }
 
+    @media (min-width: 992px){
+        font-size: 12rem;
+    }
+
     @media (min-width: 1440px){
-        font-size: 14rem;
+        font-size: 16rem;
         font-weight: bolder;
     }
 }

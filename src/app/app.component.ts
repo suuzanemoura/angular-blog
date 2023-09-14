@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title:string = 'THE BLOG';
+  borderBottom:string = 'small-card__border-bottom';
+  borderNone:string = 'small-card__border-none';
 }
