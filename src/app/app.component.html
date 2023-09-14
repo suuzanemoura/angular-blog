@@ -1,19 +1,6 @@
-<header>
-  <app-menu-bar title="{{ title }}"></app-menu-bar>
-  <app-menu-title title="{{ title }}"></app-menu-title>
-</header>
-<main id="blog" class="articles container p-5">
-  <div class="row">
-  <article class="col-lg-6 col-md-12">
-    <app-big-card></app-big-card>
-  </article>
-  <article class="col-lg-6 col-md-12">
-    <app-small-card border="{{ borderBottom }}"></app-small-card>
-    <app-small-card border="{{ borderBottom }}"></app-small-card>
-    <app-small-card border="{{ borderNone }}"></app-small-card>
-  </article>
-  <app-button class="col-12 d-flex justify-content-center" buttonName="{{buttonName}}"></app-button>
-</div>
+<app-header></app-header>
+<main>
+  <app-blog></app-blog>
 </main>
 <app-footer></app-footer>
 
