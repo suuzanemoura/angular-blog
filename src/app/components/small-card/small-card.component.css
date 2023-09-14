@@ -2,6 +2,15 @@
     width: 100%;
 }
 
-.container{
+.small-card__border-bottom{
     border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.small-card__border-none{
+    border-bottom: none;
+}
+
+.infos-date{
+    font-size: small;
+    margin: .5rem 0;
 }
