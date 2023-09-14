@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./design.component.css']
 })
 export class DesignComponent {
-
+  buttonName:string = 'More details'
 }
