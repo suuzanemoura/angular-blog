@@ -2,5 +2,17 @@
   <app-menu-bar title="{{ title }}"></app-menu-bar>
   <app-menu-title title="{{ title }}"></app-menu-title>
 </header>
+<main class="articles container p-5">
+  <div class="row">
+  <article class="col-lg-6 col-md-12">
+    <app-big-card></app-big-card>
+  </article>
+  <article class="col-lg-6 col-md-12">
+    <app-small-card></app-small-card>
+    <app-small-card></app-small-card>
+    <app-small-card></app-small-card>
+  </article>
+</div>
+</main>
 
 <router-outlet></router-outlet>
