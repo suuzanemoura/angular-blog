@@ -1,7 +1,3 @@
-.small-card-photo > img{
-    width: 100%;
-}
-
 .small-card__border-bottom{
     border-bottom: 1px solid rgba(255,255,255,0.1);
 }

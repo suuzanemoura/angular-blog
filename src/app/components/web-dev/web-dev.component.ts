@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./web-dev.component.css']
 })
 export class WebDevComponent {
-
+  borderRight:string = 'medium-card__border-right';
+  borderNone:string = 'medium-card__border-none';
 }

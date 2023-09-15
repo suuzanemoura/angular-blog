@@ -15,6 +15,7 @@ import { DesignComponent } from './components/design/design.component';
 import { WebDevComponent } from './components/web-dev/web-dev.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeaderComponent } from './components/header/header.component';
+import { MediumCardComponent } from './components/medium-card/medium-card.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { HeaderComponent } from './components/header/header.component';
     WebDevComponent,
     AboutComponent,
     HeaderComponent,
+    MediumCardComponent,
   ],
   imports: [
     BrowserModule,
