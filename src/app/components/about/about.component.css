@@ -1,0 +1,29 @@
+.about{
+    background-color: #2a013a;
+}
+
+.about-title{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: #7B448E;
+    border-right: 1px solid #7B448E;
+    padding-right: 1rem;
+    margin-right: 1rem;
+
+    @media (max-width: 992px){
+        writing-mode: horizontal-tb;
+        text-orientation: sideways;
+        border-right: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
+        border-bottom: 1px solid #7B448E;
+        padding-bottom: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.about-photo > img {
+    max-width: fit-content;
+}
