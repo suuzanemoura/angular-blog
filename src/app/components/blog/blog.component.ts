@@ -1,12 +1,24 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { data } from 'src/app/data/data';
+
+export interface smallCard {
+  smallCardDate:string
+  smallCardPhotoCover:string
+  smallCardPhotoAlt:string
+  smallCardTitle:string
+}
 
 @Component({
   selector: 'app-blog',
   templateUrl: './blog.component.html',
   styleUrls: ['./blog.component.css']
 })
-export class BlogComponent {
+export class BlogComponent implements OnInit{
   borderBottom:string = 'small-card__border-bottom';
   borderNone:string = 'small-card__border-none';
-  buttonName:string = 'More Posts';
+  smallCards:smallCard[] = []
+
+  ngOnInit(): void {
+    data.map((datacard) => {this.smallCards.push({smallCardDate: datacard.date, smallCardPhotoCover: datacard.photoCover, smallCardPhotoAlt: datacard.photoCoverAlt, smallCardTitle: datacard.title})})
+  }
 }
