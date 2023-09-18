@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark pt-4 pb-1 px-4 px-sm-5 mx-md-4">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" [routerLink]="['']">
             <img src="../../../assets/DevSuzaneMoura_Icon.svg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top mx-2">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -15,7 +15,7 @@
         <div class="offcanvas-body d-lg-flex justify-content-lg-between px-4 p-lg-0">
             <ul class="navbar-nav menu-bar">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" [routerLink]="['']">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#blog">Blog</a>
