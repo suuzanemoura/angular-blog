@@ -5,7 +5,7 @@ export const blogData = [
       "date": "September 14, 2023",
       "description": "A compelling exploration of remarkable women who have not only conquered the world of technology but have left an indelible mark on it.",
       "photoCover":"../../../assets/blog-coding-queens.jpg",
-      "photoCoverAlt": "Silhouette of a woman on her side in black, with a background in shades of pink and purple."
+      "photoCoverAlt": "Silhouette of a woman on her side in black, with a background in shades of pink and purple | Unsplash"
     },
     {
         "id":"2",
@@ -13,7 +13,7 @@ export const blogData = [
         "date": "September 12, 2023",
         "description": "",
         "photoCover":"../../../assets/blog-pixels-to-progress.jpg",
-        "photoCoverAlt": "Laptop with shades of purple and orange lights."
+        "photoCoverAlt": "Laptop with shades of purple and orange lights | Unsplash"
     },
     {
         "id":"3",
@@ -21,7 +21,7 @@ export const blogData = [
         "date": "September 10, 2023",
         "description": "",
         "photoCover":"../../../assets/blog-women-in-technology.png",
-        "photoCoverAlt": "Three women developing code together wearing matching purple coats. AI-generated image, Stable Diffusion Online."
+        "photoCoverAlt": "Three women developing code together wearing matching purple coats. AI-generated image | Stable Diffusion Online."
     },
     {
         "id":"4",
@@ -29,7 +29,7 @@ export const blogData = [
         "date": "September 09, 2023",
         "description": "",
         "photoCover":"../../../assets/blog-cracking-the-code.jpg",
-        "photoCoverAlt": "A woman standing leaning against the wall smiling proudly at the laptop screen in her arms."
+        "photoCoverAlt": "A woman standing leaning against the wall smiling proudly at the laptop screen in her arms | Unsplash"
     },
   ]
 
@@ -38,7 +38,7 @@ export const designData =
         "title": "Elevating E-Commerce: The Crucial Role of UX/UI Design and Figma",
         "description": "In the digital age, the success of e-commerce businesses hinges on their ability to provide seamless, user-friendly experiences to customers. This is where User Experience (UX) and User Interface (UI) design come into play, and Figma emerges as an invaluable tool. In this article, we'll explore the pivotal role of UX/UI design and the significance of Figma in enhancing e-commerce platforms.",
         "photoCover": "../../../assets/ux-ui-design.png",
-        "photoCoverAlt": "Image representing UX and UI design of an e-commerce screen in a mobile app.",
+        "photoCoverAlt": "Image representing UX and UI design of an e-commerce screen in a mobile app | Freepik",
         "content": `The Power of a Positive User Experience
         User Experience design focuses on creating an effortless and enjoyable journey for online shoppers. For e-commerce websites, a positive UX is synonymous with higher conversion rates, increased customer satisfaction, and brand loyalty. Shoppers are more likely to complete their purchases if they find the website intuitive, responsive, and visually appealing.
         
@@ -84,28 +84,28 @@ export const tutorialWebDevData = [
         "title": "Simplified QR Code Development: a headache-free one",
         "date": "September 06, 2023",
         "photoCover":"../../../assets/tutorial-webdev-qrcode.jpg",
-        "photoCoverAlt": "A cell phone with a QR Code on the screen, leaning against a box, on the table."
+        "photoCoverAlt": "A cell phone with a QR Code on the screen, leaning against a box, on the table | Freepik"
     },
     {
         "id": "2",
         "title": "Crafting a Cutting-Edge Checkout Frontend",
         "date": "September 04, 2023",
         "photoCover":"../../../assets/tutorial-webdev-checkout.jpg",
-        "photoCoverAlt": "Shopping cart in neon colors."
+        "photoCoverAlt": "Shopping cart in neon colors | Freepik"
     },
     {
         "id": "3",
         "title": "Share the Fun: A Code Tutorial for Social Media Sharing",
         "date": "September 02, 2023",
         "photoCover":"../../../assets/tutorial-webdev-sharesocialmedia.jpg",
-        "photoCoverAlt": "Someone holding a white smartphone with colored lights reflecting on the screen."
+        "photoCoverAlt": "Someone holding a white smartphone with colored lights reflecting on the screen | Freepik"
     },
     {
         "id": "4",
         "title": "Countdown Code Wizardry: Tick-Tock, You Don't Stop!",
         "date": "August 28, 2023",
         "photoCover":"../../../assets/tutorial-webdev-countdown timer.png",
-        "photoCoverAlt": "Sandglass with purple sand."
+        "photoCoverAlt": "Sandglass with purple sand | Unsplash"
     }
 ]
  
