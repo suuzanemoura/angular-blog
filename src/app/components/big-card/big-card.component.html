@@ -1,13 +1,15 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <img src="https://blog.iprocess.com.br/wp-content/uploads/2021/11/placeholder.png" alt="placeholder" class="w-100">
+            <img src="{{bigCardPhotoCover}}" alt="{{bigCardPhotoAlt}}" class="w-100" loading="lazy">
         </div>
 
-        <div class="col-12 p-3">
-            <p class="text-white-50 infos-date">September 14, 2023</p>
-            <h2>Incidunt molestias accusantium laborum, soluta in iure quibusdam amet ea ad quo quaerat?</h2>
-            <p class="infos-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam dicta veniam quis repudiandae voluptatum omnis voluptatibus recusandae, incidunt molestias accusantium laborum, soluta in iure quibusdam amet ea ad quo quaerat?</p>
+        <div class="col-12 pe-3 py-3">
+            <p class="text-white-50 infos-date mb-3">{{bigCardDate}}</p>
+            <h2>{{bigCardTitle}}</h2>
+            <p class="infos-description pe-4">{{bigCardDescription}}</p>
         </div>
+
+        <app-button class="col-12" buttonName="{{buttonName}}"></app-button>
     </div>
 </div>

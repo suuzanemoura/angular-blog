@@ -1,12 +1,12 @@
-<div class="container py-4 my-4 pt-md-0 mt-md-0 pb-4 mb-4 pb-xxl-5 mb-xxl-5" [ngClass]="border">
+<div class="container py-4 my-4 pt-md-0 mt-md-0 pb-4 mb-4 pb-xxl-4 mb-xxl-4" [ngClass]="border">
     <div class="row">
         <div class="col-xl-5 col-md-3 col-12 d-flex align-items-start">
-            <img src="https://blog.iprocess.com.br/wp-content/uploads/2021/11/placeholder.png" alt="placeholder" class="w-100">
+            <img src="{{smallCardPhotoCover}}" alt="{{smallCardPhotoAlt}}" class="w-100" loading="lazy">
         </div>
 
         <div class="col-xl-7 col-md-9 col-12 px-3 d-flex flex-column align-items-start">
-            <p class="text-white-50 infos-date">September 9, 2023</p>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+            <p class="text-white-50 infos-date mb-3">{{smallCardDate}}</p>
+            <h3>{{smallCardTitle}}</h3>
         </div>
     </div>
 </div>

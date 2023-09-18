@@ -1,13 +1,27 @@
 <div id="blog" class="container-fluid p-lg-5">
     <div class="row p-2 p-sm-5">
-        <article class="col-xl-6 col-lg-12 px-lg-4 mb-4">
+        <article class="col-xl-6 col-lg-12 px-lg-4 mb-5 mb-lg-2">
           <app-big-card></app-big-card>
         </article>
         <article class="col-xl-6 col-lg-12 px-lg-4">
-          <app-small-card border="{{ borderBottom }}"></app-small-card>
-          <app-small-card border="{{ borderBottom }}"></app-small-card>
-          <app-small-card border="{{ borderNone }}"></app-small-card>
+          <app-small-card
+          smallCardPhotoCover="{{smallCards[1].smallCardPhotoCover}}"
+          smallCardPhotoAlt="{{smallCards[1].smallCardPhotoAlt}}"
+          smallCardDate="{{smallCards[1].smallCardDate}}"
+          smallCardTitle="{{smallCards[1].smallCardTitle}}"
+          border="{{ borderBottom }}"></app-small-card>
+          <app-small-card
+          smallCardPhotoCover="{{smallCards[2].smallCardPhotoCover}}"
+          smallCardPhotoAlt="{{smallCards[2].smallCardPhotoAlt}}"
+          smallCardDate="{{smallCards[2].smallCardDate}}"
+          smallCardTitle="{{smallCards[2].smallCardTitle}}"
+          border="{{ borderBottom }}"></app-small-card>
+          <app-small-card
+          smallCardPhotoCover="{{smallCards[3].smallCardPhotoCover}}"
+          smallCardPhotoAlt="{{smallCards[3].smallCardPhotoAlt}}"
+          smallCardDate="{{smallCards[3].smallCardDate}}"
+          smallCardTitle="{{smallCards[3].smallCardTitle}}"
+          border="{{ borderNone }}"></app-small-card>
         </article>
-        <app-button class="col-12 d-flex justify-content-center" buttonName="{{buttonName}}"></app-button>
     </div>
 </div>
