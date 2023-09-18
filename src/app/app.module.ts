@@ -17,6 +17,7 @@ import { AboutComponent } from './components/about/about.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MediumCardComponent } from './components/medium-card/medium-card.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { HomeComponent } from './pages/home/home.component';
     HeaderComponent,
     MediumCardComponent,
     HomeComponent,
+    ContentComponent,
   ],
   imports: [
     BrowserModule,
