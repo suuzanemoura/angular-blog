@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { data } from 'src/app/data/data';
+import { blogData } from 'src/app/data/data';
 
 export interface smallCard {
   smallCardDate:string
@@ -19,6 +19,6 @@ export class BlogComponent implements OnInit{
   smallCards:smallCard[] = []
 
   ngOnInit(): void {
-    data.map((datacard) => {this.smallCards.push({smallCardDate: datacard.date, smallCardPhotoCover: datacard.photoCover, smallCardPhotoAlt: datacard.photoCoverAlt, smallCardTitle: datacard.title})})
+    blogData.map((datacard) => {this.smallCards.push({smallCardDate: datacard.date, smallCardPhotoCover: datacard.photoCover, smallCardPhotoAlt: datacard.photoCoverAlt, smallCardTitle: datacard.title})})
   }
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { data } from 'src/app/data/data';
+import { blogData } from 'src/app/data/data';
 
 @Component({
   selector: 'app-big-card',
@@ -15,11 +15,11 @@ export class BigCardComponent implements OnInit {
   buttonName:string = 'Continue reading';
 
   ngOnInit(): void {
-    this.bigCardDate = data[0].date
-    this.bigCardDescription = data[0].description
-    this.bigCardPhotoCover = data[0].photoCover
-    this.bigCardPhotoAlt = data[0].photoCoverAlt
-    this.bigCardTitle = data[0].title
+    this.bigCardDate = blogData[0].date
+    this.bigCardDescription = blogData[0].description
+    this.bigCardPhotoCover = blogData[0].photoCover
+    this.bigCardPhotoAlt = blogData[0].photoCoverAlt
+    this.bigCardTitle = blogData[0].title
   }
 
 }
