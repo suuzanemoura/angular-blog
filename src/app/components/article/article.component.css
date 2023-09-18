@@ -1,0 +1,31 @@
+.article-photo{
+    object-fit: cover;
+    object-position: top center;
+
+    @media (min-width: 768px){
+        height: 22rem;
+    }
+
+    @media (min-width: 1280px){
+        height: 30rem;
+    }
+
+    @media (min-width: 1920px){
+        height: 46rem;
+    }
+}
+
+.bi-circle-fill{
+    font-size: .25rem;
+    margin: 0 .5rem;
+}
+
+.infos-date{
+    font-size: small;
+    margin: .5rem 0;
+}
+
+.infos-title{
+    color: #9C68A7;
+    font-weight: 800;
+}
