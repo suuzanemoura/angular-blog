@@ -6,3 +6,7 @@
 .infos-description{
     color: rgb(148, 148, 148);
 }
+
+h2:hover{
+    color: #9C68A7;
+}

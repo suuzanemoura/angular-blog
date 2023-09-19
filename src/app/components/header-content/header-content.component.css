@@ -2,3 +2,13 @@
     border-left: 1px solid #9C68A7;
     padding-left: 1rem;
 }
+
+.sub-nav, .bi-arrow-left{
+    color: #9C68A7;
+    opacity: 0.85;
+}
+
+.sub-nav:hover, .bi-arrow-left:hover{
+    color: white;
+    opacity: 0.85;
+}

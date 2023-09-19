@@ -10,3 +10,7 @@
     font-size: small;
     margin: .5rem 0;
 }
+
+h3:hover{
+    color: #9C68A7;
+}

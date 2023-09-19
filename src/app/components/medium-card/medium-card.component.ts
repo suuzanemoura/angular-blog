@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class MediumCardComponent {
   @Input() border:string = ''
+  @Input() mediumCardId:string = ''
   @Input() mediumCardPhotoCover:string = ''
   @Input() mediumCardPhotoCoverAlt:string = ''
   @Input() mediumCardDate:string = ''

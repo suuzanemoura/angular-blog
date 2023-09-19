@@ -1,26 +1,36 @@
 <div id="blog" class="container-fluid p-lg-5">
     <div class="row p-2 p-sm-5">
-        <article class="col-xl-6 col-lg-12 px-lg-4 mb-5 mb-lg-2">
-          <app-big-card></app-big-card>
+        <article class="col-xl-6 col-lg-12 px-lg-4 mb-5 mb-xl-2">
+          <app-big-card
+          bigCardId="{{cards[0].cardId}}"
+          bigCardPhotoCover="{{cards[0].cardPhotoCover}}"
+          bigCardPhotoAlt="{{cards[0].cardPhotoAlt}}"
+          bigCardDate="{{cards[0].cardDate}}"
+          bigCardTitle="{{cards[0].cardTitle}}"
+          bigCardDescription="{{cards[0].cardDescription}}"
+          buttonName="Continue reading"></app-big-card>
         </article>
         <article class="col-xl-6 col-lg-12 px-lg-4">
           <app-small-card
-          smallCardPhotoCover="{{smallCards[1].smallCardPhotoCover}}"
-          smallCardPhotoAlt="{{smallCards[1].smallCardPhotoAlt}}"
-          smallCardDate="{{smallCards[1].smallCardDate}}"
-          smallCardTitle="{{smallCards[1].smallCardTitle}}"
+          smallCardId="{{cards[1].cardId}}"
+          smallCardPhotoCover="{{cards[1].cardPhotoCover}}"
+          smallCardPhotoAlt="{{cards[1].cardPhotoAlt}}"
+          smallCardDate="{{cards[1].cardDate}}"
+          smallCardTitle="{{cards[1].cardTitle}}"
           border="{{ borderBottom }}"></app-small-card>
           <app-small-card
-          smallCardPhotoCover="{{smallCards[2].smallCardPhotoCover}}"
-          smallCardPhotoAlt="{{smallCards[2].smallCardPhotoAlt}}"
-          smallCardDate="{{smallCards[2].smallCardDate}}"
-          smallCardTitle="{{smallCards[2].smallCardTitle}}"
+          smallCardId="{{cards[2].cardId}}"
+          smallCardPhotoCover="{{cards[2].cardPhotoCover}}"
+          smallCardPhotoAlt="{{cards[2].cardPhotoAlt}}"
+          smallCardDate="{{cards[2].cardDate}}"
+          smallCardTitle="{{cards[2].cardTitle}}"
           border="{{ borderBottom }}"></app-small-card>
           <app-small-card
-          smallCardPhotoCover="{{smallCards[3].smallCardPhotoCover}}"
-          smallCardPhotoAlt="{{smallCards[3].smallCardPhotoAlt}}"
-          smallCardDate="{{smallCards[3].smallCardDate}}"
-          smallCardTitle="{{smallCards[3].smallCardTitle}}"
+          smallCardId="{{cards[3].cardId}}"
+          smallCardPhotoCover="{{cards[3].cardPhotoCover}}"
+          smallCardPhotoAlt="{{cards[3].cardPhotoAlt}}"
+          smallCardDate="{{cards[3].cardDate}}"
+          smallCardTitle="{{cards[3].cardTitle}}"
           border="{{ borderNone }}"></app-small-card>
         </article>
     </div>
