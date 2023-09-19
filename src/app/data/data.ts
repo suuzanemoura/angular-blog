@@ -306,7 +306,7 @@ export const blogData = [
     },
     {
         "id": "t002",
-        "title": "Crafting a Cutting-Edge Checkout Frontend",
+        "title": "Crafting a Cutting-Edge Checkout Frontend for the Ultimate UX",
         "date": "August 24, 2023",
         "description": "",
         "category": "Tutorial",

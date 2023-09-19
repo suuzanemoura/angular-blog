@@ -1,13 +1,13 @@
-<div class="row p-2 py-5 px-sm-5 design">
-    <div class="col-lg-6 col-md-12 d-flex justify-content-center flex-column gap-3 px-lg-5 mb-5 mb-lg-4 design">
+<div class="row p-2 p-md-5 design">
+    <div class="col-lg-6 col-md-12 d-flex justify-content-center flex-column gap-3 p-md-4 p-lg-5 mb-5 mb-lg-0 design">
         <a class="design text-decoration-none text-white" [routerLink]="['learn', rowCardId]">
             <h2 class="design">{{rowCardTitle}}</h2>
             <p class="text-white-50 infos-date design">{{rowCardDate}}</p>
         </a>
-        <p class="design">{{rowCardDescription}}</p>
+        <p class="design pe-xl-4">{{rowCardDescription}}</p>
         <app-button class="design" buttonName="{{buttonName}}" [routerLink]="['learn', rowCardId]"></app-button>
     </div>
-    <div class="col-lg-6 col-md-12 d-flex justify-content-end align-items-center px-lg-3 design rowcard-photo">
+    <div class="col-lg-6 col-md-12 d-flex justify-content-end align-items-center p-xl-5 design rowcard-photo">
         <a [routerLink]="['learn', rowCardId]">
             <img src="{{rowCardPhotoCover}}" alt="{{rowCardPhotoCoverAlt}}" class="w-100 design">
         </a>
