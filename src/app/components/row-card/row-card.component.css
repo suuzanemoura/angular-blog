@@ -3,9 +3,7 @@
 }
 
 .rowcard-photo > img {
-    @media (min-width: 992px){
-        width: 80% !important;
-    }
+    max-width: fit-content;
 }
 
 .infos-date{
