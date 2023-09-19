@@ -7,3 +7,12 @@
         width: 80% !important;
     }
 }
+
+.infos-date{
+    font-size: small;
+    margin: .5rem 0;
+}
+
+h2:hover{
+    color: #9C68A7;
+}

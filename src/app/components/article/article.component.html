@@ -4,14 +4,15 @@
     <div class="row col-12  pt-lg-3 pb-lg-5 px-lg-5 m-0 justify-content-center align-items-center">
         <div class="row col-12 col-lg-9 justify-content-center align-items-center gap-3 gap-lg-4">
             <div class="d-flex flex-column">
-                <h1 class="infos-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                <p class="infos-date text-white-50 d-flex align-items-center w-100">September 14, 2023<i class="bi bi-circle-fill"></i>Blog</p>
+                <h1 class="infos-title">{{articleTitle}}</h1>
+                <p class="infos-date text-white-50 d-flex align-items-center w-100">{{articleDate}}<i class="bi bi-circle-fill"></i>{{articleCategory}}</p>
             </div>
             <div class="col-12">
-                <img src="../../../assets/blog-coding-queens.jpg" alt="" class="w-100 article-photo">
+                <img src="{{articlePhotoCover}}" alt="{{articlePhotoCoverAlt}}" class="w-100 article-photo">
             </div>
-            <p class="article-text mt-2 mt-lg-4 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ducimus repellendus incidunt modi sunt aut repellat ad accusamus voluptatum reiciendis accusantium, animi sint molestiae? Quod ullam autem doloremque quo labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quidem harum mollitia veritatis optio, asperiores blanditiis cum, molestias ea possimus qui nulla reprehenderit minima fuga nostrum delectus reiciendis vero provident! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nobis sit suscipit, tenetur vel vitae, a minima dolores eaque odio laboriosam repellat, fugiat dicta labore dignissimos aspernatur? Consectetur, voluptate qui? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dolor animi nihil porro commodi odio rem mollitia magnam molestiae, nisi dicta. Ipsam quas, veritatis ipsa fuga dolore soluta suscipit sint. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere maiores blanditiis, perferendis laborum commodi suscipit, deserunt aliquid eum doloribus assumenda iusto, provident a. Recusandae qui unde itaque quisquam animi nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat similique distinctio, expedita eum iste libero est ducimus! Saepe, quia sit aliquid doloremque maxime officia nihil incidunt aut odio reiciendis. Repellendus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea quidem laborum quibusdam? Minus, labore accusantium quisquam neque ipsam hic, rem cumque doloremque ullam fuga facilis dignissimos ipsa facere sapiente perspiciatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore optio rerum cum quibusdam dolorem minima, asperiores fugit labore delectus, suscipit ab officia non repellendus sit sed deleniti consequatur facere corrupti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, pariatur. Ullam cupiditate expedita omnis doloribus iste repellendus, exercitationem commodi quasi nihil mollitia magni temporibus quas eaque fugiat a alias corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laudantium incidunt sed repellendus, natus, enim animi, itaque veritatis neque odio maiores reprehenderit error dolore deserunt velit repellat eos adipisci voluptate?
-            </p>
+            <div class="article-text mt-2 mt-lg-4 mb-4">
+                <p *ngFor="let para of articleContent">{{para.p}}</p>
+            </div>
         </div>
     </div>
 </div>

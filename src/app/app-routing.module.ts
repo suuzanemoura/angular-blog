@@ -11,7 +11,15 @@ const routes: Routes = [
   {
     path:'blog/:id',
     component: ContentComponent
-  }
+  },
+  {
+    path:'learn/:id',
+    component: ContentComponent
+  },
+  {
+    path:'learn/:id',
+    component: ContentComponent
+  },
 ]
 
 @NgModule({

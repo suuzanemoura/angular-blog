@@ -1,15 +1,15 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <img src="{{bigCardPhotoCover}}" alt="{{bigCardPhotoAlt}}" class="w-100" loading="lazy">
+            <a [routerLink]="['blog', bigCardId]"><img src="{{bigCardPhotoCover}}" alt="{{bigCardPhotoAlt}}" class="w-100" loading="lazy"></a>
         </div>
 
         <div class="col-12 pe-3 py-3">
             <p class="text-white-50 infos-date mb-3">{{bigCardDate}}</p>
-            <h2>{{bigCardTitle}}</h2>
+            <a class="text-decoration-none text-white" [routerLink]="['blog', bigCardId]"><h2>{{bigCardTitle}}</h2></a>
             <p class="infos-description pe-4">{{bigCardDescription}}</p>
         </div>
 
-        <app-button class="col-12" buttonName="{{buttonName}}"></app-button>
+        <app-button class="col-12" buttonName="{{buttonName}}" [routerLink]="['blog', bigCardId]"></app-button>
     </div>
 </div>

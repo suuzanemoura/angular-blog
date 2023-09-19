@@ -1,12 +1,14 @@
 <div class="container pe-0 ps-0 pe-lg-4" [ngClass]="border">
     <div class="row">
         <div class="col-12 mt-2">
-            <img src="{{mediumCardPhotoCover}}" alt="{{mediumCardPhotoCoverAlt}}" class="w-100" loading="lazy">
+            <a [routerLink]="['learn', mediumCardId]">
+                <img src="{{mediumCardPhotoCover}}" alt="{{mediumCardPhotoCoverAlt}}" class="w-100" loading="lazy">
+            </a>
         </div>
 
         <div class="col-12 py-3">
             <p class="text-white-50 infos-date">{{mediumCardDate}}</p>
-            <h4>{{mediumCardTitle}}</h4>
+            <a class="text-decoration-none text-white" [routerLink]="['learn', mediumCardId]"><h4>{{mediumCardTitle}}</h4></a>
         </div>
     </div>
 </div>
