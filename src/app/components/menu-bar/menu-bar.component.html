@@ -13,7 +13,24 @@
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body d-lg-flex justify-content-lg-between px-4 p-lg-0">
-            <ul class="navbar-nav menu-bar">
+            <ul class="navbar-nav menu-bar d-none d-lg-flex">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" [routerLink]="['']">Home</a>
+                </li>
+                <li class="nav-item" [routerLink]="['']" fragment="blog">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item" [routerLink]="['']" fragment="design">
+                    <a class="nav-link" href="#design">Design</a>
+                </li>
+                <li class="nav-item" [routerLink]="['']" fragment="webdevelopment">
+                    <a class="nav-link" href="#webdevelopment">Web Development</a>
+                </li>
+                <li class="nav-item" [routerLink]="['']" fragment="about">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav menu-bar d-lg-none">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" [routerLink]="['']">Home</a>
                 </li>
