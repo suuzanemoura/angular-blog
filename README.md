@@ -14,12 +14,13 @@ O projeto é uma aplicação web simples construído com o framework Angular, no
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![BootStrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
-### Bibliotecas
+### Imagens & Textos
 
 - Imagens usadas dos sites: [Unsplash](https://unsplash.com/pt-br) / [Freepik](https://www.freepik.com/) / [Stable Diffusion Online](https://stablediffusionweb.com/)
 - Todos os textos foram gerados por AI, utilizando o chatGPT
@@ -38,6 +39,8 @@ O projeto é uma aplicação web simples construído com o framework Angular, no
 
 - Estilização e variação de tags HTML nos textos dos artigos na página de conteúdo.
 - Acrescentar o conteúdo de tutoriais aos dados mockados.
+- Acrescentar SASS.
+- Resolver ancoragem da navegação mobile.
 
 ### Status do projeto
 
