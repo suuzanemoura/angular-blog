@@ -9,7 +9,7 @@ Este é um projeto de aplicação web simples, desenvolvido com o framework **An
 
 - Acesse o deploy no Vercel: [Clique aqui!](https://techwonders.vercel.app/)
 
-## 🖼️ Visual do Projeto
+## Visual do Projeto
 
 <div align="center">
   <!-- Substitua a URL abaixo pelo link da imagem do seu projeto -->
