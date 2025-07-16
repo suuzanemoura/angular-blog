@@ -13,7 +13,8 @@ Este é um projeto de aplicação web simples, desenvolvido com o framework **An
 
 <div align="center">
   <!-- Substitua a URL abaixo pelo link da imagem do seu projeto -->
-  <img src="https://github.com/user-attachments/assets/105fb4a9-8bbb-4c71-a909-9e9eb029eb54" alt="Preview de TechWonders - Blog com Angular" width="100%"/>
+  <img src="https://github.com/user-attachments/assets/105fb4a9-8bbb-4c71-a909-9e9eb029eb54" alt="Captura de tela do Blog desenvolvido em Angular mostrando a página inicial com layout moderno, cards de artigos, menu fixo no topo e design responsivo." 
+    width="100%"/>
 </div>
 
 ## Sobre o Projeto
@@ -43,7 +44,7 @@ Este é um projeto de aplicação web simples, desenvolvido com o framework **An
 
 ## Destaques do Projeto
 
- **Design Responsivo:** Layout adaptado para diferentes tamanhos de tela, proporcionando boa experiência tanto no desktop quanto em dispositivos móveis;
+- **Design Responsivo:** Layout adaptado para diferentes tamanhos de tela, proporcionando boa experiência tanto no desktop quanto em dispositivos móveis;
 - **Navegação Intuitiva:** Menu de navegação fixo com links que levam diretamente para as seções da página inicial, facilitando o acesso rápido;
 - **Uso de Angular:** Implementação prática do Angular com rotas, componentes reutilizáveis e gerenciamento simples do estado da aplicação;
 - **Conteúdo Dinâmico:** Exibição dinâmica dos posts com dados mockados, permitindo fácil expansão para conteúdos reais futuros;
