@@ -58,7 +58,7 @@ Este é um projeto de aplicação web simples, desenvolvido com o framework **An
 - Implementar o uso de **SASS** no projeto;
 - Corrigir comportamento de ancoragem na navegação mobile.
   
-### Status do projeto
+## Status do projeto
 
 - ✅ Projeto concluído – aberto a melhorias futuras conforme disponibilidade.
 
