@@ -19,6 +19,24 @@ Este é um projeto de aplicação web simples, desenvolvido com o framework **An
 
 ## Sobre o Projeto
 
+### Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/angular-blog.git
+
+# Acesse a pasta do projeto
+cd angular-blog
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+ng serve
+
+# A aplicação será iniciada na porta 4200
+```
+
 ### Tecnologias
 - HTML5
 - CSS3
